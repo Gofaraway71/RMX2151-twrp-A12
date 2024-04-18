@@ -16,6 +16,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootimage.build.date.utc=0 \
     ro.build.date.utc=0
 
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot@1.1-impl-mock.recovery
+
 # Additional target Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
